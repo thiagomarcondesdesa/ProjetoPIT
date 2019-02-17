@@ -1,0 +1,24 @@
+﻿header .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4000;
+}
+
+header .main-nav-scrolled {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    color: #00e0d0;
+}
+
+/*for test*/
+body {
+    height: 400px;
+}
