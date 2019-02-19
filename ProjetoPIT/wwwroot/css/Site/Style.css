@@ -1,24 +1,24 @@
-﻿header .main-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
     width: 100%;
-    z-index: 4000;
+    height: 100px;
+    background: #32ca21
 }
 
-header .main-nav-scrolled {
-    background-color: rgba(0,0,0,0.4);
+main {
+    min-height: 300px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #fff;
+footer {
+    width: 100%;
+    height: 100px;
+    background: #32ca21
 }
 
-.navbar-light .navbar-nav .active .nav-link {
-    color: #00e0d0;
-}
-
-/*for test*/
-body {
-    height: 400px;
+div.centraliza {
+    text-align: center;
 }

@@ -11,29 +11,30 @@
     <link href="~/css/Site/Style.css" rel="stylesheet" />
     <script src="~/lib/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
     <script src="~/lib/jquery/jquery-1.11.1.min.js"></script>
+
+    @RenderSection("Styles", false)
+
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-danger text-light py-3 main-nav">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="" alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <h1 class="fL">
+            <a href="#" title="">Projeto PIT</a>
+        </h1>
 
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link text-uppercase" href="">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="">Login </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <nav class="fR">
+            <ul class="l2">
+                <li>
+                    <a href="#" title="">Home</a>
+                </li>
+                <li>
+                    <a href="#" title="">Login</a>
+                </li>
+                <li>
+                    <a> </a>
+                </li>
+            </ul>
         </nav>
-    </header>
+    </header>   
 
 
 
@@ -41,8 +42,12 @@
         @RenderBody()
     </main>
 
+
+
     <footer>
-        Todos os direitos reservado
+        <div class="centraliza">
+            <p>Todos os direitos reservado</p>       
+        </div> 
     </footer>
 
     <script src="~/lib/jquery/jquery-3.2.1.slim.min.js"></script>
