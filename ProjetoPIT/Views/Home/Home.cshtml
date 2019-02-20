@@ -1,8 +1,19 @@
 ﻿
 @{
     ViewData["Title"] = "Home";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutSistema.cshtml";
+
+    @section Styles {
+        <link href="~/css/Home/Style.css" rel="stylesheet" />
+    }
+
 }
 
-<h2>Página Inicial</h2>
+<div class="gallery">
+    <a target="_blank" href="logopizza.jpg">
+        <img src="~/images/Home/logopizza.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Pizza</div>
+</div>
+
 
