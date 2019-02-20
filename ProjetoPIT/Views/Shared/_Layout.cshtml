@@ -4,13 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>@ViewData["Title"] - ProjetoPIT</title>
-
-    <link href="~/lib/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/css/Site/Style.css" rel="stylesheet" />
-    <script src="~/lib/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
-    <script src="~/lib/jquery/jquery-1.11.1.min.js"></script>
 
     @RenderSection("Styles", false)
 
@@ -26,15 +20,9 @@
                 <li>
                     <a href="#" title="">Home</a>
                 </li>
-                <li>
-                    <a href="#" title="">Login</a>
-                </li>
-                <li>
-                    <a> </a>
-                </li>
             </ul>
         </nav>
-    </header>   
+    </header>
 
 
 
@@ -46,14 +34,10 @@
 
     <footer>
         <div class="centraliza">
-            <p>Todos os direitos reservado</p>       
-        </div> 
+            <p>Todos os direitos reservado</p>
+        </div>
     </footer>
 
-    <script src="~/lib/jquery/jquery-3.2.1.slim.min.js"></script>
-    <script src="~/lib/jquery/popper.min.js"></script>
-    <script src="~/lib/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-    <script src="~/js/site.js"></script>
-
+    @RenderSection("Scripts", false)
 </body>
 </html>
