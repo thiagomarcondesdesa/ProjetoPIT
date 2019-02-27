@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoPIT.Models
 {
-    public class Cliente
+    public class Cliente : Pessoa
     {
         Pessoa _pessoa;
         string _cpf;

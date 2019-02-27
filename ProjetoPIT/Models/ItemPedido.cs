@@ -7,22 +7,22 @@ namespace ProjetoPIT.Models
 {
     public class ItemPedido
     {
-        Pedido _pedido;
         Produto _produto;
         double _quantidade;
-        double _valorunitario;
+        double _valorUnitario;
+        double _valorDesconto;
 
-        public ItemPedido(Pedido pedido, Produto produto, double quantidade, double valorunitario)
+        public ItemPedido(Produto produto, double quantidade, double valorUnitario, double valorDesconto)
         {
-            Pedido = pedido;
             Produto = produto;
             Quantidade = quantidade;
-            Valorunitario = valorunitario;
+            ValorUnitario = valorUnitario;
+            ValorDesconto = valorDesconto;
         }
 
-        public Pedido Pedido { get => _pedido; set => _pedido = value; }
         public Produto Produto { get => _produto; set => _produto = value; }
         public double Quantidade { get => _quantidade; set => _quantidade = value; }
-        public double Valorunitario { get => _valorunitario; set => _valorunitario = value; }
+        public double ValorUnitario { get => _valorUnitario; set => _valorUnitario = value; }
+        public double ValorDesconto { get => _valorDesconto; set => _valorDesconto = value; }
     }
 }
