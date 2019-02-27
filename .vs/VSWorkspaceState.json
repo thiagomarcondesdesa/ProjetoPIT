@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProjetoPIT",
+    "\\ProjetoPIT\\Models",
+    "\\ProjetoPIT\\Views\\Login",
+    "\\ProjetoPIT\\Views\\Shared"
   ],
-  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
